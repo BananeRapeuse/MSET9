@@ -75,7 +75,7 @@ systmp = None
 
 systemroot = pathlib.Path(sys.executable).anchor # Never hardcode C:. My Windows drive letter is E:, my SD card or USB drive is often C:.
 if os.stat(scriptroot).st_dev == os.stat(systemroot).st_dev:
-	prbad("Error 01: Script is not running on your SD card!")
+	prbad("Erreur 01: Le script n'est pas éxecuté sur une carte SD")
 	prinfo(f"Current location: {scriptroot}")
 	exitOnEnter()
 
@@ -96,15 +96,15 @@ def dig_for_root():
 
 		with open(os.path.join(scriptroot, "Note from MSET9.txt"), "w") as f:
 			f.write("Hey!\n")
-			f.write("All the MSET9 files have been moved to the root of your SD card.\n\n")
+			f.write("Tout les fichiers MSET9 ont été déplacés à la racine de vôtre carte SD.\n\n")
 
-			f.write("\"What is the 'root of my SD card'...?\"\n")
-			f.write("The root is 'not inside any folder'.\n")
-			f.write("This is where you can see your 'Nintendo 3DS' folder. (It is not inside the Nintendo 3DS folder itself!)\n\n")
+			f.write("\"Ques-ce que la racine de ma carte SD'...?\"\n")
+			f.write("C'est le début de la carte, elle n'est dans aucun fichier'.\n")
+			f.write("C'est l'endroit où vous pouvez voir le dossier "Nintendo 3DS". (Pas à l'interieur même du fichier Nintendo 3DS!)\n\n")
 
-			f.write("Reference image: https://3ds.hacks.guide/images/screenshots/onboarding/sdroot.png\n\n")
+			f.write("Image de référence: https://3ds.hacks.guide/images/screenshots/onboarding/sdroot.png\n\n")
 
-			f.write(f"At the time of writing, the root of your SD card is at: '{root}'. Check it out!\n")
+			f.write(f"En ce moment, la racine de vôtre carte SD est: '{root}'. Regardez !\n")
 			f.close()
 
 		scriptroot = root
