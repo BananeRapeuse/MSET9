@@ -1,17 +1,17 @@
-Error 01: Not running on the SD Card root. /Nintendo 3DS/ not found.
-Error 02: Write protected SD Card. Ensure switch is facing up.
-Error 03: Attempting to change target console version during exploit.
-Error 04: Multiple ID0s, follow MSET9 Troubleshooting page.
-Error 05: Multiple ID1s, follow MSET9 Troubleshooting page.
-Error 06: Not enough free space on disk. Clean out unused files.
-Error 07: Missing/Malformed file. Reextract MSET9 zip file.
-Error 08: Could not change back into SD directory. Ensure the SD Card has been reinserted.
+Erreur 01: Script non executé à la racine de la carte sd (\Nintendo 3DS\ introuvable)
+Erreur 02: Cette carte SD est protégée ! Veuillez vérifier que le locket de la carte est du bon côté.
+Erreur 03: Vous avez essayé de changer la version de la console pendant l'exploitation de la faille.
+Erreur 04: Il y a plusieurs ID0, veuillez suivre la page d'aide (en anglais)
+Erreur 05: Il y a plusieurs ID1, veuillez suivre la page d'aide (en anglais)
+Erreur 06: Il n'y a pas assez d'espace stockage dans la carte SD. Veuillez supprimer les fichiers inutiles ou utiliser une carte SD d'une taille plus importante. 
+Erreur 07: Des fichiers sembles êtres abscents, réextraillez l'archive zip MSET9.
+Erreur 08: Impossible d'accéder à la carte SD. Assurez vous de l'avoir réincérée.
+Erreur 13: L'appareil n'existe pas.
+Erreur 14: Impossible d'ouvrir l'appareil.
+Erreur 15: Il semble que vôtre carte SD ne soit pas formatée en FAT32 ou contiennent des fichiers corompus.
+Erreur 16: Impossible de démonter la carte SD.
+Erreur 17: Des accès administrateurs sont nécéssaires
+Erreur 18: Erreur Windows 234, les paramètres UTF de Windows on besoins de réajustements, suivez la page d'aide (en anglais)
 
-Error 13: Device doesn't exist.
-Error 14: Can't open device.
-Error 15: Not FAT32 formatted or corrupted filesystem.
-Error 16: Unable to umount SD card.
-Error 17: Root privilege is required.
-Error 18: Winerror 234, Windows UTF Settings needs adjustment, follow MSET9 Troubleshooting page
-
-MSET9 Troubleshooting Page: https://3ds.hacks.guide/troubleshooting#installing-boot9strap-mset9
+Page d'aide en anglais:
+https://3ds.hacks.guide/troubleshooting#installing-boot9strap-mset9
